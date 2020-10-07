@@ -201,10 +201,16 @@ position: relative;
 	}
 }
 .advantages {
+	text-align: center;
+	background-color: #95e1d3;
 }
 .container {
 }
 .advantages-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:90px 75px 90px 35px ;
 }
 .advantages-list-item {
 }
@@ -216,6 +222,56 @@ position: relative;
 		&__sibtitle {
 		}
 }
+
+.amazing {
+	padding: 110px 0 122px 0;
+	
+
+	&__title {
+		margin-bottom: 22px;
+		text-align: center;
+	
+	}
+
+	&__subtitle {
+		margin-bottom: 42px;
+		text-align: center;
+	}
+
+	&__item {
+		margin-bottom: 66px;
+		text-align: center;
+	}
+}
+.container {
+}
+.amazing-columns {
+}
+.amazing-columns-top {
+	@include flexbox();
+	justify-content: space-between;
+}
+.amazing-columns-items {
+}
+.amazing-items {
+	flex: 0 0 33,333%;
+
+	&__img {
+	}
+}
+.amazing-items-text {
+
+	&__title {
+	}
+
+	&__subtitle {
+	}
+}
+.amazing-columns-bot {
+	@include flexbox();
+	justify-content: space-between;
+}
+
 
 
 

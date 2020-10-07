@@ -235,3 +235,56 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 48px; }
   .story__text {
     margin-bottom: 100px; }
+
+.advantages {
+  text-align: center;
+  background-color: #95e1d3; }
+
+.advantages-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 90px 75px 90px 35px; }
+
+.amazing {
+  padding: 110px 0 122px 0; }
+  .amazing__title {
+    margin-bottom: 22px;
+    text-align: center; }
+  .amazing__subtitle {
+    margin-bottom: 42px;
+    text-align: center; }
+  .amazing__item {
+    margin-bottom: 66px;
+    text-align: center; }
+
+.amazing-columns-top {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.amazing-items {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33,333%;
+  flex: 0 0 33,333%; }
+
+.amazing-columns-bot {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
