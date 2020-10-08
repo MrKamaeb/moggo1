@@ -274,10 +274,10 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.amazing-items {
+.amazing-columns-items {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 33,333%;
-  flex: 0 0 33,333%; }
+  -ms-flex: 0 0 33.333%;
+  flex: 0 0 33.333%; }
 
 .amazing-columns-bot {
   display: -webkit-box;
@@ -288,3 +288,56 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
+
+.unique-design {
+  position: relative;
+  width: 100%;
+  height: 57%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .unique-design__title {
+    margin-bottom: 22px; }
+  .unique-design__subtitle {
+    margin-bottom: 38px; }
+  .unique-design__elem {
+    margin-bottom: 46px; }
+
+.unique-design-screen {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
+  position: relative; }
+  .unique-design-screen__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+.unique-design-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 110px;
+  left: 0; }
+
+.unique-design-img__ipad {
+  position: relative;
+  top: 0;
+  left: 100px; }
+
+.unique-design-img__iphone {
+  position: relative;
+  top: 198px;
+  right: 20px;
+  z-index: 50; }

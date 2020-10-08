@@ -213,6 +213,7 @@ position: relative;
 	padding:90px 75px 90px 35px ;
 }
 .advantages-list-item {
+
 }
 .advantages-item {
 
@@ -252,9 +253,9 @@ position: relative;
 	justify-content: space-between;
 }
 .amazing-columns-items {
+	flex: 0 0 33.333%;
 }
 .amazing-items {
-	flex: 0 0 33,333%;
 
 	&__img {
 	}
@@ -268,9 +269,74 @@ position: relative;
 	}
 }
 .amazing-columns-bot {
+	
 	@include flexbox();
 	justify-content: space-between;
 }
+
+.unique-design {
+	position: relative;
+	width: 100%;
+	height: 57%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	@include flexbox();
+	flex-direction: column;
+
+	&__title {
+		margin-bottom: 22px;
+	}
+
+	&__subtitle {
+		margin-bottom: 38px;
+	}
+
+	&__elem {
+		margin-bottom: 46px;
+	}
+}
+.unique-design-screen {
+flex: 1 0 100%;
+position: relative;
+	&__bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+
+	}
+}
+.ibg {
+}
+
+.container {
+}
+.unique-design-wrap{
+	position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 110px;
+		left: 0;
+}
+.unique-design-img {
+
+
+}
+.unique-design-img__ipad{
+	position: relative;
+		top: 0;
+		left:100px ;
+}
+.unique-design-img__iphone{
+	position: relative;
+	top: 198px;
+	right:20px ;
+	z-index: 50;
+
+}
+
 
 
 
